@@ -37,6 +37,10 @@ function Persons()
 
     return ( 
         <div>
+            const listItems = chemist.Map(
+            {
+
+            })
             <ul>{chemists}</ul>;
         </div>
         )

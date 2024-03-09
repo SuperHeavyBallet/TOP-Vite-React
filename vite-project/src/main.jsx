@@ -8,11 +8,14 @@ import { Persons } from './Persons.jsx'
 import { ToDoList } from './ToDo.jsx'
 import { MonthList } from './MothList.jsx'
 import ButtonApp from './Button.jsx'
+import ChangeColor from './ChangeColour.jsx'
+import CustomInput from './CustomInput.jsx'
+import Person from './Person.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
-    <ButtonApp/>
+    <Person />
 
   </React.StrictMode>,
 )
